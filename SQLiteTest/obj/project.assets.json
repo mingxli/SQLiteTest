@@ -1,0 +1,772 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "sqlite-net-pcl/1.4.118": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_sqlcipher/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.lib.sqlcipher.ios_unified.static": "1.1.9",
+          "SQLitePCLRaw.provider.internal.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.sqlcipher.ios_unified.static/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.internal.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "SQLiteTest.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.9",
+          "SQLitePCLRaw.core": "1.1.9",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "sqlite-net-pcl/1.4.118": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_sqlcipher/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.lib.sqlcipher.ios_unified.static": "1.1.9",
+          "SQLitePCLRaw.provider.internal.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.sqlcipher.ios_unified.static/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.internal.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "SQLiteTest.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.9",
+          "SQLitePCLRaw.core": "1.1.9",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "sqlite-net-pcl/1.4.118": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_sqlcipher/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.lib.sqlcipher.ios_unified.static": "1.1.9",
+          "SQLitePCLRaw.provider.internal.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.sqlcipher.ios_unified.static/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.internal.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "SQLiteTest.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.9",
+          "SQLitePCLRaw.core": "1.1.9",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "sqlite-net-pcl/1.4.118": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.5"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_sqlcipher/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9",
+          "SQLitePCLRaw.lib.sqlcipher.ios_unified.static": "1.1.9",
+          "SQLitePCLRaw.provider.internal.ios_unified": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll": {},
+          "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.sqlcipher.ios_unified.static/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.internal.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.9"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.5.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "OpenTK-1.0",
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "SQLiteTest.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.9",
+          "SQLitePCLRaw.core": "1.1.9",
+          "sqlite-net-pcl": "1.4.118"
+        },
+        "compile": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SQLiteTest.Database.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sqlite-net-pcl/1.4.118": {
+      "sha512": "66wl2z26PpA/m+hY2UJudsHF3GpbbC8Scx9WvXC0MomQxrbclkb2jiavYsXH3AEXHsTAjKIWavmwKoRIPWsdAg==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.4.118",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard1.1/SQLite-net.deps.json",
+        "lib/netstandard1.1/SQLite-net.dll",
+        "lib/netstandard1.1/SQLite-net.pdb",
+        "lib/netstandard1.1/SQLite-net.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
+        "sqlite-net-pcl.1.4.118.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/1.1.9": {
+      "sha512": "/TGWr10r4+u/t5DmvQvGHX5HZwQmMoEdNPbJMEmnxpZpLP1vE9HSV1n/CFU86OwB4YYS5fMxYi4WUpXJ8zlm6Q==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
+        "lib/win8/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
+        "lib/win81/SQLitePCLRaw.batteries_v2.dll",
+        "lib/wp8/_._",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.1.1.9.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_sqlcipher/1.1.9": {
+      "sha512": "xcLBW0BX1POg7fnVSPmdHE+H3qrH+nu+Mtn5Ov3BXe/c52RiujlRsmVjZnnMRtpWlSMVFHDaeFJIw48lY7I/Rg==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_sqlcipher/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_sqlcipher.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_sqlcipher.1.1.9.nupkg.sha512",
+        "sqlitepclraw.bundle_sqlcipher.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/1.1.9": {
+      "sha512": "mShkTlsP/dpulialGuPiN5VJf8/JGB/Vjqtvj8loQPxvQ+DISmstcdQJ+CGNEe7R1FP29hAJelZlIIMxAvWYtQ==",
+      "type": "package",
+      "path": "sqlitepclraw.core/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/MonoAndroid/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/net35/SQLitePCLRaw.core.dll",
+        "lib/net40/SQLitePCLRaw.core.dll",
+        "lib/net45/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.0/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.core.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/uap10.0/SQLitePCLRaw.core.dll",
+        "lib/win8/SQLitePCLRaw.core.dll",
+        "lib/win81/SQLitePCLRaw.core.dll",
+        "lib/wpa81/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.1.1.9.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.sqlcipher.ios_unified.static/1.1.9": {
+      "sha512": "lV9Ld8f0MD/9QJEdiQ/54shJf9lHTYu+vK7RfAJ0r1+OgykBK+uAP5sa+rOEnYBsfBC5dTr7kN9ptn0gpILqiA==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.sqlcipher.ios_unified.static/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.lib.sqlcipher.dll",
+        "sqlitepclraw.lib.sqlcipher.ios_unified.static.1.1.9.nupkg.sha512",
+        "sqlitepclraw.lib.sqlcipher.ios_unified.static.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.internal.ios_unified/1.1.9": {
+      "sha512": "1t5KFNitk7/0f0AdJLgb1PF0jX/KdKVKd8L6wxFTsCnofsHm7LTHyOzRQqbwrovabcMRWpmMvE03jSjU9KsEyg==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.internal.ios_unified/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.provider.internal.dll",
+        "sqlitepclraw.provider.internal.ios_unified.1.1.9.nupkg.sha512",
+        "sqlitepclraw.provider.internal.ios_unified.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.9": {
+      "sha512": "FTc5xmRgKAfynJ10NqbpuFM4WLs00c07qotP33xzqZB+QtT59xGCYSXUO1GYt0pQi1MqyMXvksMrEusFyULz8w==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.sqlite3.ios_unified/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
+        "sqlitepclraw.provider.sqlite3.ios_unified.1.1.9.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
+      ]
+    },
+    "Xamarin.Essentials/1.5.3.2": {
+      "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+      "type": "package",
+      "path": "xamarin.essentials/1.5.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid10.0/Xamarin.Essentials.dll",
+        "lib/monoandroid10.0/Xamarin.Essentials.pdb",
+        "lib/monoandroid10.0/Xamarin.Essentials.xml",
+        "lib/monoandroid80/Xamarin.Essentials.dll",
+        "lib/monoandroid80/Xamarin.Essentials.pdb",
+        "lib/monoandroid80/Xamarin.Essentials.xml",
+        "lib/monoandroid81/Xamarin.Essentials.dll",
+        "lib/monoandroid81/Xamarin.Essentials.pdb",
+        "lib/monoandroid81/Xamarin.Essentials.xml",
+        "lib/monoandroid90/Xamarin.Essentials.dll",
+        "lib/monoandroid90/Xamarin.Essentials.pdb",
+        "lib/monoandroid90/Xamarin.Essentials.xml",
+        "lib/netstandard1.0/Xamarin.Essentials.dll",
+        "lib/netstandard1.0/Xamarin.Essentials.pdb",
+        "lib/netstandard1.0/Xamarin.Essentials.xml",
+        "lib/netstandard2.0/Xamarin.Essentials.dll",
+        "lib/netstandard2.0/Xamarin.Essentials.pdb",
+        "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
+        "lib/uap10.0.16299/Xamarin.Essentials.dll",
+        "lib/uap10.0.16299/Xamarin.Essentials.pdb",
+        "lib/uap10.0.16299/Xamarin.Essentials.pri",
+        "lib/uap10.0.16299/Xamarin.Essentials.xml",
+        "lib/xamarinios10/Xamarin.Essentials.dll",
+        "lib/xamarinios10/Xamarin.Essentials.pdb",
+        "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
+        "readme.txt",
+        "xamarin.essentials.1.5.3.2.nupkg.sha512",
+        "xamarin.essentials.nuspec"
+      ]
+    },
+    "SQLiteTest.Database/1.0.0": {
+      "type": "project",
+      "path": "../SQLiteTest.Database/SQLiteTest.Database.csproj",
+      "msbuildProject": "../SQLiteTest.Database/SQLiteTest.Database.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "SQLitePCLRaw.bundle_green >= 1.1.9",
+      "SQLitePCLRaw.bundle_sqlcipher >= 1.1.9",
+      "SQLitePCLRaw.core >= 1.1.9",
+      "SQLitePCLRaw.lib.sqlcipher.ios_unified.static >= 1.1.9",
+      "SQLitePCLRaw.provider.internal.ios_unified >= 1.1.9",
+      "SQLitePCLRaw.provider.sqlite3.ios_unified >= 1.1.9",
+      "SQLiteTest.Database >= 1.0.0",
+      "Xamarin.Essentials >= 1.5.3.2",
+      "sqlite-net-pcl >= 1.4.118"
+    ]
+  },
+  "packageFolders": {
+    "/Users/KiioDev/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest/SQLiteTest.csproj",
+      "projectName": "SQLiteTest",
+      "projectPath": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest/SQLiteTest.csproj",
+      "packagesPath": "/Users/KiioDev/.nuget/packages/",
+      "outputPath": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/KiioDev/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "https://kiio.pkgs.visualstudio.com/_packaging/Kiio/nuget/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/SQLiteTest.Database.csproj": {
+              "projectPath": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/SQLiteTest.Database.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": {
+            "target": "Package",
+            "version": "[1.1.9, )"
+          },
+          "SQLitePCLRaw.bundle_sqlcipher": {
+            "target": "Package",
+            "version": "[1.1.9, )"
+          },
+          "SQLitePCLRaw.core": {
+            "target": "Package",
+            "version": "[1.1.9, )"
+          },
+          "SQLitePCLRaw.lib.sqlcipher.ios_unified.static": {
+            "target": "Package",
+            "version": "[1.1.9, )"
+          },
+          "SQLitePCLRaw.provider.internal.ios_unified": {
+            "target": "Package",
+            "version": "[1.1.9, )"
+          },
+          "SQLitePCLRaw.provider.sqlite3.ios_unified": {
+            "target": "Package",
+            "version": "[1.1.9, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.5.3.2, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.4.118, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/SQLiteTest.Database.csproj": {}
+  },
+  "projects": {
+    "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/SQLiteTest.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/SQLiteTest.Database.csproj",
+        "projectName": "SQLiteTest.Database",
+        "projectPath": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/SQLiteTest.Database.csproj",
+        "packagesPath": "/Users/KiioDev/.nuget/packages/",
+        "outputPath": "/Users/KiioDev/Projects/SQLiteTest/SQLiteTest.Database/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/KiioDev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://kiio.pkgs.visualstudio.com/_packaging/Kiio/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[1.1.9, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[1.1.9, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.4.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
