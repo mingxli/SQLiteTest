@@ -1,6 +1,6 @@
 Steps to reproduce:
 
-1. Debug with the current nuget packages on an iOS 14.* device or simulator.
+1. Debug with the current nuget packages on an iOS 14.3 device or simulator.
 2. The app runs successfully and the database is created.
 3. Stop the debug.
 4. Manually remove all the nuget packages for both SQLite.Database and SQLiteTest projects and install the SQLite-Net-SQLCipher 1.7.335.
